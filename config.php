@@ -1,5 +1,6 @@
 <?php
     session_start();
+    session_regenerate_id();
     define ("HEAD","inc/header.php");
     define ("FOOT","inc/footer.php");
     define ("IMG","images/");
