@@ -1,0 +1,32 @@
+DataBases : Shopping
+
+1- Table for users
+    - Id
+    - FirstName
+    - LastName
+    - email
+    - password
+    - mobile
+2- Table for admin
+    - Id
+    - FirstName
+    - LastName
+    - email
+    - password
+    - premission  => [Super Admin - Admin]
+3- Table for products
+    - Id
+    - name
+    - price
+    - photo
+    - user_id
+4- Table for Orders
+    - Id
+    - title
+    - price
+    - owner_name
+    - owner_mobile
+    - buyers_name
+    - buyers_mobile
+
+
